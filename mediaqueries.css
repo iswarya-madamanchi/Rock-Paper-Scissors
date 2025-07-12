@@ -1,0 +1,40 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+
+    .choices {
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .choice {
+        height: 120px;
+        width: 120px;
+    }
+
+    img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .score-board {
+        flex-direction: column;
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+
+    #user-score,
+    #comp-score {
+        font-size: 3rem;
+    }
+
+    #msg {
+        font-size: 1.5rem;
+        padding: 0.8rem;
+    }
+}
